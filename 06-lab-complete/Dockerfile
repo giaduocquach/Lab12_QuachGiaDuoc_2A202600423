@@ -1,49 +1,50 @@
 # ============================================================
-# Production Dockerfile — Multi-stage, < 500 MB, non-root
+# Production Dockerfile — BKAgent Web (Lab5-6 UI exact deploy)
 # ============================================================
 
-# Stage 1: Builder
-FROM python:3.11-slim AS builder
-
-WORKDIR /build
-
-RUN apt-get update && apt-get install -y gcc libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY requirements.txt .
-RUN pip install --no-cache-dir --user -r requirements.txt
-
-
-# Stage 2: Runtime
-FROM python:3.11-slim AS runtime
-
-# Non-root user
-RUN groupadd -r agent && useradd -r -g agent -d /app agent
+# Stage 1: Install deps
+FROM node:20-bookworm-slim AS deps
 
 WORKDIR /app
 
-# Copy packages từ builder
-COPY --from=builder /root/.local /home/agent/.local
+COPY vinagent-web/package.json vinagent-web/package-lock.json ./
+RUN npm install
 
-# Copy application
-COPY app/ ./app/
-COPY utils/ ./utils/
 
-RUN chown -R agent:agent /app
+# Stage 2: Build Next app
+FROM node:20-bookworm-slim AS builder
 
-USER agent
+WORKDIR /app
 
-ENV PATH=/home/agent/.local/bin:$PATH
-ENV PYTHONPATH=/app
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+COPY --from=deps /app/node_modules ./node_modules
+COPY vinagent-web/ ./
 
-EXPOSE 8000
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
-    CMD python -c \
-    "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" \
-    || exit 1
+RUN npm run build
+RUN npm prune --omit=dev
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+
+# Stage 3: Runtime (non-root)
+FROM node:20-bookworm-slim AS runtime
+
+RUN groupadd -r app && useradd -r -g app -m -d /home/app app
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+COPY --from=builder /app/ ./
+
+RUN chown -R app:app /app
+
+USER app
+
+EXPOSE 3000
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=3 \
+    CMD node -e "fetch('http://127.0.0.1:' + (process.env.PORT || 3000) + '/').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"
+
+CMD ["sh", "-c", "npm run start -- --hostname 0.0.0.0 --port ${PORT:-3000}"]

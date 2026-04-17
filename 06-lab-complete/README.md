@@ -1,6 +1,13 @@
-# Lab 12 — Complete Production Agent
+# Lab 12 — Complete Production Agent (BKAgent Packaging)
 
 Kết hợp TẤT CẢ những gì đã học trong 1 project hoàn chỉnh.
+
+Project duoc chon tu buoi truoc: BKAgent (ho tro lap ke hoach dang ky tin chi HUST), da dong goi lai trong `06-lab-complete/vinagent-web`.
+
+Muc tieu ban dong goi trong folder 06:
+- Giu nguyen yeu cau production cua Lab12 (auth, rate limit, cost guard, health/readiness, stateless Redis, Docker, deploy).
+- Tich hop domain logic cua BKAgent vao endpoint `/ask`.
+- Bo sung web UI o trang chu `/` de thao tac nhanh voi API tren production.
 
 ## Checklist Deliverable
 
@@ -9,6 +16,8 @@ Kết hợp TẤT CẢ những gì đã học trong 1 project hoàn chỉnh.
 - [x] .dockerignore
 - [x] Health check endpoint (`GET /health`)
 - [x] Readiness endpoint (`GET /ready`)
+- [x] UI endpoint (`GET /`)
+- [x] API info endpoint (`GET /api-info`)
 - [x] API Key authentication
 - [x] Rate limiting
 - [x] Cost guard
@@ -29,6 +38,8 @@ Kết hợp TẤT CẢ những gì đã học trong 1 project hoàn chỉnh.
 │   ├── auth.py         # API Key + JWT
 │   ├── rate_limiter.py # Rate limiting
 │   └── cost_guard.py   # Budget protection
+│   ├── vinagent_service.py # Logic tu project BKAgent cu
+│   └── vinagent_data/      # Du lieu da migrate (courses/schedule/student/...)
 ├── Dockerfile          # Multi-stage, production-ready
 ├── docker-compose.yml  # Full stack
 ├── railway.toml        # Deploy Railway
@@ -51,14 +62,18 @@ docker compose up
 
 # 3. Test
 curl http://localhost/health
+curl -I http://localhost/
+curl http://localhost/api-info
 
 # 4. Lấy API key từ .env, test endpoint
 API_KEY=$(grep AGENT_API_KEY .env | cut -d= -f2)
 curl -H "X-API-Key: $API_KEY" \
      -X POST http://localhost/ask \
      -H "Content-Type: application/json" \
-     -d '{"question": "What is deployment?"}'
+     -d '{"user_id": "20210001", "question": "Lap ke hoach dang ky tin chi hoc ky nay"}'
 ```
+
+Neu cau hoi khong thuoc domain BKAgent, he thong se fallback ve mock LLM nhu truoc.
 
 ---
 

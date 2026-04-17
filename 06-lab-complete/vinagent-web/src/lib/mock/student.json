@@ -1,0 +1,84 @@
+{
+  "currentStudentId": "20210001",
+  "id": "20210001",
+  "password": "1",
+  "name": "Nguyễn Văn An",
+  "major": "Khoa học Máy tính",
+  "program": "CTTT",
+  "year": 2,
+  "gpa": 3.15,
+  "currentSemester": "20252",
+  "completedCourses": [
+    "MI1111",
+    "MI1121",
+    "PH1110",
+    "IT1110",
+    "FL1101",
+    "SSH1111",
+    "PE1011"
+  ],
+  "inProgressCourses": [],
+  "targetCourses": ["MI1131", "PH1120", "IT2110", "SSH1121", "PE1021"],
+  "preferences": {
+    "avoidMorning": false,
+    "avoidAfternoon": false,
+    "preferGroupFriends": true,
+    "priorityDays": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "maxCreditsPerSemester": 21
+  },
+  "groupFriends": [
+    { "id": "20210042", "name": "Đức" }
+  ],
+  "advisorId": "advisor-cs-001",
+  "advisorName": "PGS.TS. Nguyễn Thanh Tùng",
+  "students": [
+    {
+      "id": "20210001",
+      "password": "1",
+      "name": "Nguyễn Văn An",
+      "major": "Khoa học Máy tính",
+      "program": "CTTT",
+      "year": 2,
+      "gpa": 3.15,
+      "currentSemester": "20252",
+      "completedCourses": ["MI1111","MI1121","PH1110","IT1110","FL1101","SSH1111","PE1011"],
+      "inProgressCourses": [],
+      "targetCourses": ["MI1131","PH1120","IT2110","SSH1121","PE1021"],
+      "preferences": {
+        "avoidMorning": false,
+        "avoidAfternoon": false,
+        "preferGroupFriends": true,
+        "priorityDays": ["Mon","Tue","Wed","Thu","Fri"],
+        "maxCreditsPerSemester": 21
+      },
+      "groupFriends": [
+        { "id": "20210042", "name": "Đức" }
+      ],
+      "advisorId": "advisor-cs-001",
+      "advisorName": "PGS.TS. Nguyễn Thanh Tùng"
+    },
+    {
+      "id": "20210042",
+      "password": "1",
+      "name": "Đức",
+      "major": "Khoa học Máy tính",
+      "program": "CTTT",
+      "year": 2,
+      "gpa": 3.05,
+      "currentSemester": "20252",
+      "completedCourses": ["MI1111","MI1121","PH1110","IT1110","FL1101","SSH1111"],
+      "inProgressCourses": [],
+      "targetCourses": ["MI1131","PH1120","IT2110","SSH1121"],
+      "preferences": {
+        "avoidMorning": true,
+        "avoidAfternoon": false,
+        "preferGroupFriends": true,
+        "priorityDays": ["Mon","Tue","Wed","Thu","Fri"],
+        "maxCreditsPerSemester": 18
+      },
+      "groupFriends": [{ "id": "20210001", "name": "Nguyễn Văn An" }],
+      "advisorId": "advisor-cs-001",
+      "advisorName": "PGS.TS. Nguyễn Thanh Tùng"
+    }
+  ]
+}

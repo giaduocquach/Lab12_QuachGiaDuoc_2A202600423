@@ -1,0 +1,970 @@
+[
+  {
+    "ma_hp": "PE1010",
+    "ten_hp": "Giáo dục thể chất A",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC A,B"
+  },
+  {
+    "ma_hp": "PE1020",
+    "ten_hp": "Giáo dục thể chất B",
+    "ky_hoc": 2,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC B"
+  },
+  {
+    "ma_hp": "IT4125",
+    "ten_hp": "Đồ án tốt nghiệp",
+    "ky_hoc": 8,
+    "bat_buoc": true,
+    "tc_dt": 6,
+    "ghi_chu_loai_hp": "Đồ án tốt nghiệp cử nhân"
+  },
+  {
+    "ma_hp": "PE1030",
+    "ten_hp": "Giáo dục thể chất C",
+    "ky_hoc": 3,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": null
+  },
+  {
+    "ma_hp": "PE2010",
+    "ten_hp": "Giáo dục thể chất D",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2011",
+    "ten_hp": "Bóng đá I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2012",
+    "ten_hp": "Bóng chuyền I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2013",
+    "ten_hp": "Bóng rổ I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2014",
+    "ten_hp": "Bóng ném I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2015",
+    "ten_hp": "Aerobic I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2016",
+    "ten_hp": "Cầu lông I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2017",
+    "ten_hp": "Bóng bàn I",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2018",
+    "ten_hp": "Giáo dục thể chất E6",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE2019",
+    "ten_hp": "Giáo dục thể chất E7",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCI"
+  },
+  {
+    "ma_hp": "PE1015",
+    "ten_hp": "Thể dục tay không",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2261",
+    "ten_hp": "Karatedo",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2020",
+    "ten_hp": "Giáo dục thể chất E",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2021",
+    "ten_hp": "Bóng đá II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2022",
+    "ten_hp": "Bóng chuyền II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2023",
+    "ten_hp": "Bóng rổ II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2024",
+    "ten_hp": "Bóng ném II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2025",
+    "ten_hp": "Aerobic II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2026",
+    "ten_hp": "Cầu lông II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2027",
+    "ten_hp": "Bóng bàn II",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2028",
+    "ten_hp": "Giáo dục thể chất E8",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2029",
+    "ten_hp": "Giáo dục thể chất E9",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "TCII"
+  },
+  {
+    "ma_hp": "PE2101",
+    "ten_hp": "Bóng chuyền 1",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC D"
+  },
+  {
+    "ma_hp": "PE2151",
+    "ten_hp": "Erobic",
+    "ky_hoc": 3,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC C"
+  },
+  {
+    "ma_hp": "PE2201",
+    "ten_hp": "Bóng đá 1",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC D"
+  },
+  {
+    "ma_hp": "PE2301",
+    "ten_hp": "Bóng rổ 1",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC D"
+  },
+  {
+    "ma_hp": "PE2401",
+    "ten_hp": "Bóng bàn 1",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC D"
+  },
+  {
+    "ma_hp": "PE2501",
+    "ten_hp": "Cầu lông 1",
+    "ky_hoc": 4,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC D"
+  },
+  {
+    "ma_hp": "PE2601",
+    "ten_hp": "Chạy",
+    "ky_hoc": 3,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC C"
+  },
+  {
+    "ma_hp": "PE2701",
+    "ten_hp": "Nhảy cao",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC A,B"
+  },
+  {
+    "ma_hp": "PE2801",
+    "ten_hp": "Nhảy xa",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC A,B"
+  },
+  {
+    "ma_hp": "PE2901",
+    "ten_hp": "Xà kép, xà lệch",
+    "ky_hoc": 3,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC C"
+  },
+  {
+    "ma_hp": "PE2102",
+    "ten_hp": "Bóng chuyền 2",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC E"
+  },
+  {
+    "ma_hp": "PE2202",
+    "ten_hp": "Bóng đá 2",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC E"
+  },
+  {
+    "ma_hp": "PE2302",
+    "ten_hp": "Bóng rổ 2",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC E"
+  },
+  {
+    "ma_hp": "PE2402",
+    "ten_hp": "Bóng bàn 2",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC E"
+  },
+  {
+    "ma_hp": "PE2502",
+    "ten_hp": "Cầu lông 2",
+    "ky_hoc": 5,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Tự chọn GDTC E"
+  },
+  {
+    "ma_hp": "PE1014",
+    "ten_hp": "Lý luận TDTT",
+    "ky_hoc": 1,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Giáo dục thể chất"
+  },
+  {
+    "ma_hp": "PE1024",
+    "ten_hp": "Bơi lội",
+    "ky_hoc": 2,
+    "bat_buoc": false,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Giáo dục thể chất"
+  },
+  {
+    "ma_hp": "SSH1111",
+    "ten_hp": "Triết học Mác - Lênin",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Lý luận chính trị"
+  },
+  {
+    "ma_hp": "SSH1121",
+    "ten_hp": "Kinh tế chính trị Mác - Lênin",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Lý luận chính trị"
+  },
+  {
+    "ma_hp": "SSH1131",
+    "ten_hp": "Chủ nghĩa xã hội khoa học",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Lý luận chính trị"
+  },
+  {
+    "ma_hp": "SSH1141",
+    "ten_hp": "Lịch sử Đảng cộng sản Việt Nam",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Lý luận chính trị"
+  },
+  {
+    "ma_hp": "SSH1151",
+    "ten_hp": "Tư tưởng Hồ Chí Minh",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Lý luận chính trị"
+  },
+  {
+    "ma_hp": "EM1170",
+    "ten_hp": "Pháp luật đại cương",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Pháp luật đại cương"
+  },
+  {
+    "ma_hp": "MIL1210",
+    "ten_hp": "Đường lối quốc phòng và an ninh của Đảng Cộng sản Việt Nam",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "ĐLQP&QN của ĐCSVN"
+  },
+  {
+    "ma_hp": "MIL1220",
+    "ten_hp": "Công tác quốc phòng và an ninh",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Công tác QP & An ninh"
+  },
+  {
+    "ma_hp": "MIL1230",
+    "ten_hp": "Quân sự chung",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Quân sự chung"
+  },
+  {
+    "ma_hp": "MIL1240",
+    "ten_hp": "Kỹ thuật chiến đấu bộ binh và chiến thuật",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "KT chiến đấu BB và chiến thuật"
+  },
+  {
+    "ma_hp": "FL1131",
+    "ten_hp": "Tiếng Anh cơ sở 1",
+    "ky_hoc": null,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": null
+  },
+  {
+    "ma_hp": "FL1132",
+    "ten_hp": "Tiếng Anh cơ sở 2",
+    "ky_hoc": null,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": null
+  },
+  {
+    "ma_hp": "MI1144",
+    "ten_hp": "Đại số tuyến tính",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "MI1114",
+    "ten_hp": "Giải tích I",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "MI1124",
+    "ten_hp": "Giải tích II",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "MI1134",
+    "ten_hp": "Phương trình vi phân và Chuỗi",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "MI2021",
+    "ten_hp": "Xác suất thống kê",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "PH1110",
+    "ten_hp": "Vật lý đại cương I",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT3420",
+    "ten_hp": "Điện tử cho CNTT",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT2140",
+    "ten_hp": "Điện tử cho CNTT lab",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT2110",
+    "ten_hp": "Nhập môn CNTT và TT",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT2120",
+    "ten_hp": "Kiến thức máy tính",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT3020",
+    "ten_hp": "Toán rời rạc",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT4110",
+    "ten_hp": "Tính toán khoa học",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT4172",
+    "ten_hp": "Xử lý tín hiệu",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Toán và Khoa học cơ bản"
+  },
+  {
+    "ma_hp": "IT3362",
+    "ten_hp": "Kỹ năng ITSS học bằng tiếng Nhật 1",
+    "ky_hoc": 7,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3382",
+    "ten_hp": "Kỹ năng ITSS học bằng tiếng Nhật 2",
+    "ky_hoc": 8,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3210",
+    "ten_hp": "C Programming Language",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3220",
+    "ten_hp": "C Programming (Introduction)",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3011",
+    "ten_hp": "Cấu trúc dữ liệu và thuật toán",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3323",
+    "ten_hp": "Xây dựng chương trình dịch",
+    "ky_hoc": 7,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3230",
+    "ten_hp": "Lập trình C cơ bản",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3170",
+    "ten_hp": "Thuật toán ứng dụng",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT4082",
+    "ten_hp": "Kỹ thuật phần mềm",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3070",
+    "ten_hp": "Nguyên lý hệ điều hành",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3080",
+    "ten_hp": "Mạng máy tính",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3292",
+    "ten_hp": "Cơ sở dữ liệu",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3290",
+    "ten_hp": "Thực hành cơ sở dữ liệu",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3160",
+    "ten_hp": "Nhập môn Trí tuệ nhân tạo",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3103",
+    "ten_hp": "Lập trình hướng đối tượng",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3283",
+    "ten_hp": "Kiến trúc máy tính",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT3280",
+    "ten_hp": "Thực hành kiến trúc máy tính",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT4015",
+    "ten_hp": "Nhập môn an toàn thông tin",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT5021",
+    "ten_hp": "Nghiên cứu tốt nghiệp 1",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT5022",
+    "ten_hp": "Nghiên cứu tốt nghiệp 2",
+    "ky_hoc": 7,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT4549",
+    "ten_hp": "Phát triển phần mềm theo chuẩn kỹ năng ITSS",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT4062",
+    "ten_hp": "Thực hành Lập trình mạng",
+    "ky_hoc": 7,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT4593",
+    "ten_hp": "Nhập môn kỹ thuật truyền thông",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "IT2030",
+    "ten_hp": "Technical Writing and Presentation",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "CH2021",
+    "ten_hp": "Đổi mới sáng tạo và khởi nghiệp",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "ME3123",
+    "ten_hp": "Thiết kế mỹ thuật công nghiệp",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "ME3124",
+    "ten_hp": "Thiết kế quảng bá sản phẩm",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "EM1010",
+    "ten_hp": "Quản trị học đại cương",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Khối kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "EM1180",
+    "ten_hp": "Văn hóa kinh doanh và tinh thần khởi nghiệp",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Khối kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "ED3280",
+    "ten_hp": "Tâm lý học ứng dụng",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Khối kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "ED3220",
+    "ten_hp": "Kỹ năng mềm",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Khối kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "ET3262",
+    "ten_hp": "Tư duy công nghệ và thiết kế kỹ thuật",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Khối kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "TEX3123",
+    "ten_hp": "Thiết kế mỹ thuật công nghiệp",
+    "ky_hoc": null,
+    "bat_buoc": false,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Khối kiến thức bổ trợ"
+  },
+  {
+    "ma_hp": "IT4948",
+    "ten_hp": "Thực tập công nghiệp",
+    "ky_hoc": 7,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Thực tập công nghiệp"
+  },
+  {
+    "ma_hp": "IT4409",
+    "ten_hp": "Công nghệ Web và dịch vụ trực tuyến",
+    "ky_hoc": 7,
+    "bat_buoc": "chon_module",
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Mô đun 1 (AI and Big Data)/Mô đun 2 (AI and IoT)"
+  },
+  {
+    "ma_hp": "IT4785",
+    "ten_hp": "Phát triển ứng dụng cho thiết bị di động",
+    "ky_hoc": 7,
+    "bat_buoc": "chon_module",
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Mô đun 1 (AI and Big Data)/Mô đun 2 (AI and IoT)"
+  },
+  {
+    "ma_hp": "IT4542",
+    "ten_hp": "Quản trị phát triển phần mềm",
+    "ky_hoc": 8,
+    "bat_buoc": "chon_module",
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Mô đun 1 (AI and Big Data)/Mô đun 2 (AI and IoT)"
+  },
+  {
+    "ma_hp": "IT4930",
+    "ten_hp": "Nhập môn Khoa học dữ liệu",
+    "ky_hoc": 8,
+    "bat_buoc": "chon_module",
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Mô đun 1 (AI and Big Data)"
+  },
+  {
+    "ma_hp": "IT3190",
+    "ten_hp": "Nhập môn Học máy và khai phá dữ liệu",
+    "ky_hoc": 7,
+    "bat_buoc": "chon_module",
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Mô đun 1 (AI and Big Data)"
+  },
+  {
+    "ma_hp": "IT4441",
+    "ten_hp": "Giao diện và trải nghiệm người dùng",
+    "ky_hoc": 6,
+    "bat_buoc": "chon_module",
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Mô đun 1 (AI and Big Data)"
+  },
+  {
+    "ma_hp": "IT4210",
+    "ten_hp": "Hệ nhúng",
+    "ky_hoc": 6,
+    "bat_buoc": "chon_module",
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Mô đun 2 (AI and IoT)"
+  },
+  {
+    "ma_hp": "IT4735",
+    "ten_hp": "IoT và ứng dụng",
+    "ky_hoc": 8,
+    "bat_buoc": "chon_module",
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Mô đun 2 (AI and IoT)"
+  },
+  {
+    "ma_hp": "IT4651",
+    "ten_hp": "Thiết kế và triển khai mạng IP",
+    "ky_hoc": 7,
+    "bat_buoc": "chon_module",
+    "tc_dt": 3,
+    "ghi_chu_loai_hp": "Mô đun 2 (AI and IoT)"
+  },
+  {
+    "ma_hp": "JP1110",
+    "ten_hp": "Tiếng Nhật 1",
+    "ky_hoc": 1,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP1120",
+    "ten_hp": "Tiếng Nhật 2",
+    "ky_hoc": 2,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP1132",
+    "ten_hp": "Tiếng Nhật 3",
+    "ky_hoc": 3,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Cơ sở và cốt lõi ngành"
+  },
+  {
+    "ma_hp": "JP2111",
+    "ten_hp": "Tiếng Nhật 4",
+    "ky_hoc": 4,
+    "bat_buoc": true,
+    "tc_dt": 0,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP2126",
+    "ten_hp": "Tiếng Nhật 5",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP2132",
+    "ten_hp": "Tiếng Nhật 6",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP2210",
+    "ten_hp": "Tiếng Nhật 7",
+    "ky_hoc": 7,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP2220",
+    "ten_hp": "Tiếng Nhật 8",
+    "ky_hoc": 8,
+    "bat_buoc": true,
+    "tc_dt": 1,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 1"
+  },
+  {
+    "ma_hp": "JP3110",
+    "ten_hp": "Tiếng Nhật chuyên ngành 1",
+    "ky_hoc": 5,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 2"
+  },
+  {
+    "ma_hp": "JP3120",
+    "ten_hp": "Tiếng Nhật chuyên ngành 2",
+    "ky_hoc": 6,
+    "bat_buoc": true,
+    "tc_dt": 2,
+    "ghi_chu_loai_hp": "Ngoại ngữ 2 mô đun 2"
+  }
+]

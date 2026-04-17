@@ -1,0 +1,111 @@
+{
+  "semester": "20252",
+  "generatedAt": "2026-04-09T11:10:00+07:00",
+  "users": [
+    {
+      "userId": "2A202600206",
+      "fullName": "Nguyen Thanh Nam",
+      "major": "Computer Science",
+      "year": 2,
+      "gpa": 3.21,
+      "desiredCredits": 18,
+      "availability": {
+        "avoidMorning": false,
+        "avoidAfternoon": true,
+        "preferredDays": ["Mon", "Wed", "Fri"]
+      },
+      "completedCourses": ["MI1111", "MI1121", "IT1110", "PH1110", "FL1101"],
+      "targetCourses": ["MI1131", "IT2110", "IT3070", "SSH1121"],
+      "plannedSections": [
+        {
+          "courseCode": "MI1131",
+          "section": "150700",
+          "day": "Mon",
+          "startHour": 8,
+          "endHour": 10,
+          "room": "D3-201",
+          "seatRisk": "low"
+        },
+        {
+          "courseCode": "IT2110",
+          "section": "150702",
+          "day": "Wed",
+          "startHour": 10,
+          "endHour": 12,
+          "room": "D5-401",
+          "seatRisk": "medium"
+        }
+      ]
+    },
+    {
+      "userId": "2A202600318",
+      "fullName": "Tran My Linh",
+      "major": "Data Science and AI",
+      "year": 3,
+      "gpa": 3.56,
+      "desiredCredits": 20,
+      "availability": {
+        "avoidMorning": true,
+        "avoidAfternoon": false,
+        "preferredDays": ["Tue", "Thu", "Sat"]
+      },
+      "completedCourses": ["MI1111", "MI1121", "IT1110", "IT2110", "PH1110", "SSH1111"],
+      "targetCourses": ["IT3170", "IT3130", "MI2020", "PE1021"],
+      "plannedSections": [
+        {
+          "courseCode": "IT3170",
+          "section": "150811",
+          "day": "Tue",
+          "startHour": 13,
+          "endHour": 15,
+          "room": "TC-304",
+          "seatRisk": "low"
+        },
+        {
+          "courseCode": "MI2020",
+          "section": "150655",
+          "day": "Thu",
+          "startHour": 15,
+          "endHour": 17,
+          "room": "D9-102",
+          "seatRisk": "medium"
+        }
+      ]
+    },
+    {
+      "userId": "2A202600411",
+      "fullName": "Le Quang Huy",
+      "major": "Information Systems",
+      "year": 1,
+      "gpa": 2.84,
+      "desiredCredits": 16,
+      "availability": {
+        "avoidMorning": false,
+        "avoidAfternoon": false,
+        "preferredDays": ["Mon", "Tue", "Thu"]
+      },
+      "completedCourses": ["MI1111", "PH1110", "FL1101"],
+      "targetCourses": ["MI1121", "IT1110", "SSH1111", "PE1011"],
+      "plannedSections": [
+        {
+          "courseCode": "MI1121",
+          "section": "150501",
+          "day": "Mon",
+          "startHour": 7,
+          "endHour": 9,
+          "room": "C7-205",
+          "seatRisk": "high"
+        },
+        {
+          "courseCode": "IT1110",
+          "section": "150506",
+          "day": "Thu",
+          "startHour": 9,
+          "endHour": 11,
+          "room": "D6-103",
+          "seatRisk": "medium"
+        }
+      ]
+    }
+  ]
+}
